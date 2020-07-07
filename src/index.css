@@ -11,3 +11,91 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+#root{
+  background-image: url("./assets/unnamed.jpg");
+  width: 500px;
+  height: 500px;
+  position: relative;
+  margin: auto;
+}
+#ipod-shuffle{
+  width: 191px;
+  height: 188px;
+  position: relative;
+  background-color: whitesmoke;
+  opacity: 0;
+  left: 21%;
+  border-radius: 50%;
+  top: 16%;
+}
+#select{
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  background-color: black;
+  border-radius: inherit;
+  top: 31%;
+  left: 31%;
+}
+#menu{
+  left: 32%;
+  top: 2%;
+  font-size: 1.2em;
+  position: relative;
+  opacity: 0.5;
+}
+#menuList{
+  position: relative;
+  height: inherit;
+  width: 107px;
+  background-color: whitesmoke;
+ 
+    
+}
+
+.header{
+  font-size: 1.3em;
+  box-sizing: border-box;
+  padding: 5px;
+}
+.list{
+  height: 85%;
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.item{
+  position: relative;
+  width: 100%;
+  color: black;
+  font-size: 1em;
+  padding:5px 10px;
+  box-sizing: border-box;
+  border-top: 1px solid black;
+  cursor: none;
+}
+.item:hover{
+  background-color: silver;
+}
+.hover{
+  background-color: silver;
+  
+}
+#ipod{
+  height: inherit;
+  width: 62%;
+
+
+  margin: auto;
+}
+#display{
+  position: relative;
+  height: 185px;
+  width: 80%;
+  
+  left: 12%;
+  top: 6%;
+}
